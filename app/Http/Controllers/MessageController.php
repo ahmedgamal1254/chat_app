@@ -17,7 +17,7 @@ class MessageController extends Controller
     {
         $users=User::where("id","!=",Auth::user()->id)->get();
         $messages=Message::where("sender_id","=",Auth::user()->id)->where("recieve_id","=",$id)
-            ->orWhere("sender_id","=",$id)->orWhere("recieve_id","=",Auth::user()->id)->get();
+            ->orWhere("sender_id","=",$id)->Where("recieve_id","=",Auth::user()->id)->get();
 
         $id=$id;
         return view("chat",compact('users','messages','id'));
