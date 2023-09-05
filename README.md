@@ -1,3 +1,22 @@
+<h1>Chat application</h1>
+<p>i developed chat application between users with realtime data by pusher</p>
+
+<h2>Features</h2>
+<ul>
+    <li>Chat app with two users</li>
+</ul>
+
+<ul>
+    <li>Laravel</li>
+    <li>mysql</li>
+    <li>javascript</li>
+    <li>pusher</li>
+    <li>event & listener</li>
+</ul>
+
+<h2>Demo</h2>
+<img src="https://github.com/ahmedgamal1254/chat_app/blob/9afbcd4450fec9f3ec4845faea13b776fd3dcca6/2023-05-09%2016-57-11_2.gif" />
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
